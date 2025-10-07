@@ -8,7 +8,8 @@
     background: #014325;
 }
 
-html {
+html,body {
+    min-height: 100%;
     overflow: hidden;
 }
 
@@ -414,4 +415,5 @@ ul li p {
 .fxemoji--negativesquaredcrossmark:hover {
     scale: 1.2;
     cursor: pointer;
+
 }
